@@ -4,10 +4,10 @@ import './index.css';
 
 
 ReactDOM.render(
-    React.createElement(
-        "h1",
-        { style: {color: "blue" }},
-        "Heyyy Everyone!"
-    ),
+    <ul>
+        <li>Monday</li>
+        <li>Tuesday</li>
+        <li>Wednesday</li>
+    </ul>,
     document.getElementById('root')
 );
