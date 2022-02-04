@@ -5,7 +5,7 @@ function Header(props) {
     console.log(props);
     return (
       <header>
-        <h1>Eve's Kitchen</h1>
+        <h1>{props.name}'s Kitchen</h1>
       </header>
   );
 }
@@ -29,7 +29,7 @@ function Footer() {
 function App() {
   return (
     <div className="App">
-        <Header />
+        <Header name="Cindy" />
         <Main />
         <Footer />
       <h3>Footer</h3>
